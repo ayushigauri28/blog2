@@ -3,6 +3,7 @@ body
     text-align: center;
     background: linear-gradient( #E1BEE7 0%,#90CAF9 100%);
 	background-repeat:no-repeat;
+    font-family: cursive;
 }
 
 img
@@ -20,18 +21,18 @@ img .hover{
 
 h1{
   text-shadow:2px 2px #F8BBD0;
-  font-size:20px;
+  font-size:30px;
 }
 
 
 p{
   font-size:18px;
-  color:#6A1B9A;
+  color:firebrick;
   
     
 }
 h2{
-  font-size:20px;
+  font-size:30px;
   color:#1A237E;
 }
 .line{
@@ -55,18 +56,35 @@ h2{
     cursor: pointer;
 }
 #welcome{
+    margin-top:100px;
     z-index: 9;
 }
-.links{
+ul{
+    margin-left:10px;
+    font-family: cursive;
+    font-size:30px;
+    color: firebrick;
+}
+li{
+    color: firebrick;
+    border-right: 3px solid;
     float:left;
     padding-left: 9px;
     padding-right: 9px;
     padding-top: 5px;
     padding-bottom: 5px;
     display: inline;
+    background-color: burlywood;
 }
-.links:hover{
+
+#contact{
+    border-right: none;
+}
+.li:hover{
     background-color: dodgerblue;
+}
+.article{
+    font-size: 20px;
 }
 .article:hover{
     background-color: darkorange;
